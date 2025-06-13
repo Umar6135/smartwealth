@@ -2,4 +2,31 @@
     .container{
         max-width: 1208px;
     }
+  
+       .work-with-us .container {
+        max-width: 1290px !important;
+    }
+   
+ .why-work-list .container{
+            max-width: 1354px;
+    }
+}
+@media (min-width: 1800px) {
+      .work-with-us  .container {
+        max-width: 1542px !important;
+        margin: auto;
+    } .why-work-list .container {
+    max-width: 1744px;
+}
+}
+@media (max-width:1800px) {
+ 
+    .work-with-us .work-form{
+            width: 807px;
+
+    }
+   
+    .why-work-list .wwL-list{
+        width: 638px;
+    }
 }

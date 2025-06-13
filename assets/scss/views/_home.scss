@@ -1,3 +1,27 @@
+
+
+.work-with-us {
+        background-color: rgba(0, 41, 40, 1);
+        padding-block: 108px;
+
+    h1 {
+        font-size: 72px;
+        line-height: 1;
+    text-align: center;
+        margin-bottom: 20px;
+
+    }
+
+  
+    p{      font-size: 20px;
+        line-height: 1.4;
+        color: #fff;
+        font-weight: 400;
+            text-align: center;
+margin-bottom: 46px;
+
+    }
+}
 .banner {
     background-color: rgba(0, 41, 40, 1);
     position: relative;
@@ -253,11 +277,6 @@ footer {
 }
 
 
-.work-with-us {
-    .banner::before {
-        content: none;
-    }
-}
 
 
 .about {
@@ -301,33 +320,34 @@ footer {
 
 
 .workwithus-form {
-
-    p {
-        color: grey
+    display: flex;
+    justify-content: space-between;
+    .work-form{
+        
+    width: 1040px;
+    .card{
+        padding: 40px 20px 40px 40px;
+        border-radius: 40px;
     }
 
+    }
+
+  
+
     #heading {
-        text-transform: uppercase;
-        color: #059669;
-        font-weight: normal
+       font-family: $fontSecondary;
+        font-size: 50px;
+        line-height: 1.1;
+        color: #1E1E1E;
+        margin-bottom: 32px;
+        font-weight: 600;
     }
 
     #msform {
         text-align: center;
         position: relative;
-        margin-top: 20px
     }
 
-    #msform fieldset {
-        background: white;
-        border: 0 none;
-        border-radius: 0.5rem;
-        box-sizing: border-box;
-        width: 100%;
-        margin: 0;
-        padding-bottom: 20px;
-        position: relative
-    }
 
     .form-card {
         text-align: left
@@ -336,22 +356,85 @@ footer {
     #msform fieldset:not(:first-of-type) {
         display: none
     }
-
-    #msform input,
-    #msform textarea {
-        padding: 8px 15px 8px 15px;
-        border: 1px solid #ccc;
-        border-radius: 0px;
-        margin-bottom: 25px;
-        margin-top: 2px;
-        width: 100%;
-        box-sizing: border-box;
-        color: #2C3E50;
-        background-color: #ECEFF1;
+ .retirement .fieldlabels,.financial-advisor .fieldlabels, .investments .fieldlabels,.last-questions .fieldlabels{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    input{
+        width: 24px !important;
+        height: 24px;
+    }
+    p{
+        margin-bottom: 0;
         font-size: 16px;
-        letter-spacing: 1px
+            color: #1E1E1E;
+            font-weight: 500;
+            line-height: 1;
+            font-family: $fontSecondary;
+    }
+    strong{
+            margin-bottom: 5px;
+display: block;
+    }
+ }
+ .last-questions textarea{
+    border-radius: 40px !important;
+ }
+.last-questions{
+    .agree{
+           border-radius: 80px;
+    background: rgba(255, 255, 255, 1);
+    display: flex
+;
+    padding: 12px 26px;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    border: 1px solid rgb(107 114 128 / 25%);
+        color: #1E1E1E;
+    text-align: center;
+    font-family: $fontSecondary;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    width: fit-content;
+input{
+        width: 24px !important;
+    height: 24px !important;
+}
+}
+}
+ .last-questions p, .last-questions p small a{
+        color: #1E1E1EBF;
+font-size: 17px;
+padding-left: 10px;
+margin-bottom: 20px;
+text-align: left;
+ }
+  .last-questions p small a{
+    padding-left: 0;
+    margin-bottom: 0;
+     font-size: 13px;
+}
+    #msform input,
+    #msform textarea,
+    .retirement .fieldlabels ,
+    .financial-advisor .fieldlabels,
+    .investments .fieldlabelsm, .investments .fieldlabels,.last-questions .fieldlabels{
+    font-size: 15px;
+    font-family: $fontSecondary;
+    line-height:1.1;
+    padding: 17.5px 26px;
+    width: 100%;
+    color: #0E0E0F;
+    background: #F8FAFC;
+    border-radius: 60px;
+    border: 1px solid rgb(107 114 128 / 25%); 
     }
 
+    .mb-20 {
+  margin-bottom: 20px;
+}
     #msform input:focus,
     #msform textarea:focus {
         -moz-box-shadow: none !important;
@@ -362,15 +445,18 @@ footer {
     }
 
     #msform .action-button {
-        width: 100px;
         background: #059669;
+    width: fit-content;
+
+        font-size: 16px;
+        line-height: 1;
+        font-family: $fontSecondary;
         font-weight: bold;
-        color: white;
+        color: #F8FAFC;
         border: 0 none;
-        border-radius: 0px;
+        border-radius: 80px;
         cursor: pointer;
-        padding: 10px 5px;
-        margin: 10px 0px 10px 5px;
+        padding: 16px 26px 15px 25px;
         float: right
     }
 
@@ -380,16 +466,18 @@ footer {
     }
 
     #msform .action-button-previous {
-        width: 100px;
-        background: #616161;
-        font-weight: bold;
-        color: white;
-        border: 0 none;
-        border-radius: 0px;
-        cursor: pointer;
-        padding: 10px 5px;
-        margin: 10px 5px 10px 0px;
-        float: right
+        background: #000;
+          width: fit-content;
+    font-size: 16px;
+    line-height: 1;
+    font-family: "Nunito Sans";
+    font-weight: bold;
+    color: #f8fafc;
+    border: 0 none;
+    border-radius: 80px;
+    cursor: pointer;
+    padding: 16px 26px 15px 25px;
+    float: left;
     }
 
     #msform .action-button-previous:hover,
@@ -502,11 +590,158 @@ footer {
     }
 
     .progress-bar {
-        background-color: #059669
+        background-color: #F97316;
+        background-image: initial;
+        border-radius: 8px;
     }
 
     .fit-image {
         width: 100%;
         object-fit: cover
+    }
+    .form-item{
+        display: flex;
+        background: #F8F9FC;
+        border-radius: 24px;
+        align-items: center;
+        margin-bottom: 20px;
+        gap: 32px;
+        padding: 20px 0px 20px 24px;
+        &-number{
+         
+       color: #1E1E1E;
+       width: 70px;
+       height: 63px;
+       background-color: #fff;
+       display: flex
+;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+       h5{
+           font-size: 32px;
+
+       font-family: $fontSecondary;
+       line-height: 1;
+       font-weight: 700;
+       margin-bottom: 0;
+       
+       }
+      }
+      p{
+        color: #1e1e1ebf;
+font-size: 28px;
+font-weight: 600;
+font-family: $fontSecondary;
+line-height: 1.25;
+text-align: left;
+margin-bottom: 0;
+max-width: 715px;
+      }
+    }
+}
+
+small{
+    font-size: 80%;
+}
+.why-work-list{
+    padding-block: 180px;
+   
+    .wwL-lists{
+        display: flex;
+        justify-content: space-between;
+    }
+    .wwL-list{
+        width: 800px;
+    }
+    h3{
+        font-size: 50px;
+        font-family: $fontSecondary;    font-weight: 600;
+color: #1E1E1E;
+text-align: center;
+line-height: 1.1;
+margin-bottom: 60px;
+    }
+    h4{
+            font-family: "Nunito Sans", Sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #1E1E1E;
+    margin-bottom: 32px;
+    }
+    ul{
+        li{
+            display: flex;
+            gap: 37px;
+            padding: 24px 32px;
+            border-radius: 12px;
+            background: #F8FAFC;
+            border: 1px solid #6B7280;
+            margin-bottom: 12px;
+            font-size: 28px;
+            font-family: $fontSecondary;
+            color: #1E1E1E;
+            font-weight: 600;
+        }
+    }
+}
+.get-a-question{
+        background-color: #002928;
+    padding-block: 108px;
+h1{
+        font-size: 72px;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+p{
+        font-size: 20px;
+    line-height: 1.4;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 46px;
+    max-width: 653px;
+    margin-inline: auto;
+}
+    .form-card{
+        padding: 120px 40px 120px 40px;
+        background: #fff;
+        border: 1px solid #6B7280;
+        border-radius: 60px;
+        button{
+                background: #059669;
+    font-size: 16px;
+    line-height: 1;
+    font-family: "Nunito Sans";
+    font-weight: bold;
+    color: #f8fafc;
+    border: 0 none;
+    border-radius: 80px;
+    cursor: pointer;
+    padding: 16px 26px 15px 25px;
+    display: block;
+    width: 100%;
+
+        }
+        
+  
+        input,textarea {
+    font-size: 15px;
+    font-family: "Nunito Sans";
+    line-height: 1.1;
+    padding: 17.5px 26px;
+    width: 100%;
+    color: #0e0e0f;
+    background: #f8fafc;
+    border-radius: 60px;
+    MARGIN-BOTTOM: 20PX;
+    border: 1px solid rgba(107, 114, 128, .25);
+}
+  textarea{
+        border-radius: 35px;
+    }
     }
 }
