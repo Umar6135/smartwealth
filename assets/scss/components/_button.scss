@@ -1,0 +1,26 @@
+.theme-btn {
+  font-size: 14px;
+  line-height: 1.5;
+  display: inline-block;
+  color: #fff;
+  padding: 10px 35px;
+  background: #059669;
+  border-radius: 25px;
+  font-weight: 400;
+
+
+  &:hover{
+    
+    background-color: rgb(110 231 183 / 1);
+    color: rgb(6 78 59/1);
+  }
+
+  &.dark-btn{
+    background-color: #000;
+      &:hover{
+    
+    background-color: rgb(15 23 42);
+    color: rgb(255, 255, 255);
+  }
+  }
+}

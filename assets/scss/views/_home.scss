@@ -1,0 +1,512 @@
+.banner {
+    background-color: rgba(0, 41, 40, 1);
+    position: relative;
+    padding-top: 151px;
+    overflow: hidden;
+    text-align: center;
+
+    &:hover {
+        &::before {
+            bottom: 0px;
+        }
+    }
+
+    &::before {
+        position: absolute;
+        background: url("/assets/img/banner-gardiant.png") no-repeat top center / cover;
+        width: 100%;
+        height: 300px;
+        content: "";
+        bottom: -50px;
+        left: 0;
+        z-index: 1;
+        transition: all 0.3s;
+    }
+
+    h1 {
+        font-size: 64px;
+        font-weight: 500;
+        line-height: 1;
+        color: #fff;
+        max-width: 1055px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 1.4;
+        color: #fff;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .theme-btn {
+        font-size: 16px;
+        line-height: 1;
+        padding: 14.5px 18.5px 14.5px 18.5px;
+        margin-bottom: 114px;
+        display: block;
+        width: fit-content;
+        margin-inline: auto;
+    }
+
+    img {
+        z-index: 2;
+        position: relative;
+    }
+}
+
+.podcast-props {
+    padding-block: 112px;
+
+    h2 {
+        font-size: 48px;
+        line-height: 1;
+        font-weight: 500;
+        color: #000;
+        max-width: 690px;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    span {
+        font-size: 26px;
+        color: #1E1E1E;
+        line-height: 1.2;
+        display: inline-block;
+    }
+
+    .podcast-card {
+        display: flex;
+        gap: 13px;
+        justify-content: center;
+
+    }
+}
+
+
+.reteirment {
+    margin-inline: 48px;
+    position: relative;
+    padding-top: 103px;
+    padding-bottom: 80px;
+    background: rgb(246 250 243/1);
+    border-radius: 24px;
+    margin-bottom: 100px;
+
+    &-content {
+        text-align: center;
+        max-width: 1184px;
+        margin: auto;
+
+        &::before {
+            content: "";
+            position: absolute;
+            width: 1822px;
+            height: 530px;
+            background-image: linear-gradient(to bottom, rgba(5, 150, 105, 0.5), rgba(5, 150, 105, 0));
+            top: 0;
+            left: 0;
+            border-top-left-radius: 24px;
+            border-top-right-radius: 24px;
+            pointer-events: none;
+        }
+    }
+
+    .sec-badge {
+        font-size: 14px;
+        display: inline-block;
+        color: #000;
+        border: 1px solid #000;
+        border-radius: 8px;
+        line-height: 1.22;
+        padding: 4px 8px;
+        margin-bottom: 30px;
+    }
+
+    h3 {
+        font-size: 72px;
+        font-weight: 500;
+        color: #000;
+        line-height: 1;
+        max-width: 956px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 1.4;
+        font-weight: 400;
+        color: #000;
+        max-width: 1291px;
+        margin: auto;
+    }
+
+    .btn-group {
+        margin-top: 50px;
+        gap: 44px;
+
+        .theme-btn {
+            font-size: 16px;
+            line-height: 1;
+            font-weight: 700;
+            padding: 15px 30px 15px 30px;
+
+            &.dark-btn {
+
+                padding: 15px 40px 15px 40px;
+            }
+        }
+    }
+
+    .description {
+        margin-bottom: 30px;
+    }
+
+    .retirement-row-content {
+        max-width: 425px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .reteirment .container {
+        max-width: 1370px;
+    }
+}
+
+.retirement-row {
+    padding-block: 100px;
+}
+
+.retirement-row .heading {
+    font-size: 48px;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.toolkit-img {
+    position: relative;
+
+    &:before {
+        content: "";
+        width: 575px;
+        height: 470px;
+        background: url(../img/retirement-bg-gradient.png) no-repeat center /contain;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    img {
+        position: relative;
+        z-index: 1;
+    }
+}
+
+
+.cta {
+    padding: 80px;
+    text-align: center;
+    border-radius: 80px;
+    background-color: #002928;
+    max-width: 1600px;
+    margin: auto;
+
+
+    &-heading {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+
+    p {
+        color: #fff;
+    }
+
+    .theme-btn {
+        margin-top: 30px;
+    }
+}
+
+
+footer {
+    padding-inline: 48px;
+    padding-block: 50px;
+    background-color: #002928;
+
+}
+
+
+.copy-right,
+.copy-right a {
+
+    font-size: 16px;
+    line-height: 1.4;
+    color: #fff;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: rgb(5 150 105);
+}
+
+
+.work-with-us {
+    .banner::before {
+        content: none;
+    }
+}
+
+
+.about {
+    padding-block: 50px;
+
+    h2 {
+        font-size: 78px;
+        font-weight: 500;
+        color: #000;
+
+    }
+
+    h3 {
+        font-size: 50px;
+        color: #000;
+
+        margin: 48px 0px 24px 0px;
+    }
+
+    p {
+        color: #6B7280;
+
+    }
+
+    ul {
+        font-size: 16px;
+        color: #6B7280;
+
+        list-style: disc;
+        padding-left: 40px;
+
+        strong {
+            font-weight: 500;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+
+.workwithus-form {
+
+    p {
+        color: grey
+    }
+
+    #heading {
+        text-transform: uppercase;
+        color: #059669;
+        font-weight: normal
+    }
+
+    #msform {
+        text-align: center;
+        position: relative;
+        margin-top: 20px
+    }
+
+    #msform fieldset {
+        background: white;
+        border: 0 none;
+        border-radius: 0.5rem;
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0;
+        padding-bottom: 20px;
+        position: relative
+    }
+
+    .form-card {
+        text-align: left
+    }
+
+    #msform fieldset:not(:first-of-type) {
+        display: none
+    }
+
+    #msform input,
+    #msform textarea {
+        padding: 8px 15px 8px 15px;
+        border: 1px solid #ccc;
+        border-radius: 0px;
+        margin-bottom: 25px;
+        margin-top: 2px;
+        width: 100%;
+        box-sizing: border-box;
+        color: #2C3E50;
+        background-color: #ECEFF1;
+        font-size: 16px;
+        letter-spacing: 1px
+    }
+
+    #msform input:focus,
+    #msform textarea:focus {
+        -moz-box-shadow: none !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        border: 1px solid #059669;
+        outline-width: 0
+    }
+
+    #msform .action-button {
+        width: 100px;
+        background: #059669;
+        font-weight: bold;
+        color: white;
+        border: 0 none;
+        border-radius: 0px;
+        cursor: pointer;
+        padding: 10px 5px;
+        margin: 10px 0px 10px 5px;
+        float: right
+    }
+
+    #msform .action-button:hover,
+    #msform .action-button:focus {
+        background-color: #311B92
+    }
+
+    #msform .action-button-previous {
+        width: 100px;
+        background: #616161;
+        font-weight: bold;
+        color: white;
+        border: 0 none;
+        border-radius: 0px;
+        cursor: pointer;
+        padding: 10px 5px;
+        margin: 10px 5px 10px 0px;
+        float: right
+    }
+
+    #msform .action-button-previous:hover,
+    #msform .action-button-previous:focus {
+        background-color: #000000
+    }
+
+    .card {
+        z-index: 0;
+        border: none;
+        position: relative
+    }
+
+    .fs-title {
+        font-size: 25px;
+        color: #059669;
+        margin-bottom: 15px;
+        font-weight: normal;
+        text-align: left
+    }
+
+    .purple-text {
+        color: #059669;
+        font-weight: normal
+    }
+
+    .steps {
+        font-size: 25px;
+        color: gray;
+        margin-bottom: 10px;
+        font-weight: normal;
+        text-align: right
+    }
+
+    .fieldlabels {
+        color: gray;
+        text-align: left
+    }
+
+    #progressbar {
+        margin-bottom: 30px;
+        overflow: hidden;
+        color: lightgrey
+    }
+
+    #progressbar .active {
+        color: #059669
+    }
+
+    #progressbar li {
+        list-style-type: none;
+        font-size: 15px;
+        width: 25%;
+        float: left;
+        position: relative;
+        font-weight: 400
+    }
+
+    #progressbar #account:before {
+        font-family: FontAwesome;
+        content: "\f13e"
+    }
+
+    #progressbar #personal:before {
+        font-family: FontAwesome;
+        content: "\f007"
+    }
+
+    #progressbar #payment:before {
+        font-family: FontAwesome;
+        content: "\f030"
+    }
+
+    #progressbar #confirm:before {
+        font-family: FontAwesome;
+        content: "\f00c"
+    }
+
+    #progressbar li:before {
+        width: 50px;
+        height: 50px;
+        line-height: 45px;
+        display: block;
+        font-size: 20px;
+        color: #ffffff;
+        background: lightgray;
+        border-radius: 50%;
+        margin: 0 auto 10px auto;
+        padding: 2px
+    }
+
+    #progressbar li:after {
+        content: '';
+        width: 100%;
+        height: 2px;
+        background: lightgray;
+        position: absolute;
+        left: 0;
+        top: 25px;
+        z-index: -1
+    }
+
+    #progressbar li.active:before,
+    #progressbar li.active:after {
+        background: #059669
+    }
+
+    .progress {
+        height: 20px
+    }
+
+    .progress-bar {
+        background-color: #059669
+    }
+
+    .fit-image {
+        width: 100%;
+        object-fit: cover
+    }
+}
