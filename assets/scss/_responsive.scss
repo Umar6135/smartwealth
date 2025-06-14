@@ -1,32 +1,308 @@
 @media (min-width: 1400px) {
-    .container{
+    .container {
         max-width: 1208px;
     }
-  
-       .work-with-us .container {
+
+    .work-with-us .container {
         max-width: 1290px !important;
     }
-   
- .why-work-list .container{
-            max-width: 1354px;
+
+    .why-work-list .container {
+        max-width: 1354px;
     }
 }
+
 @media (min-width: 1800px) {
-      .work-with-us  .container {
+    .work-with-us .container {
         max-width: 1542px !important;
         margin: auto;
-    } .why-work-list .container {
-    max-width: 1744px;
+    }
+
+    .why-work-list .container {
+        max-width: 1744px;
+    }
 }
-}
+
 @media (max-width:1800px) {
- 
-    .work-with-us .work-form{
-            width: 807px;
+
+    .work-with-us .work-form {
+        width: 807px;
 
     }
-   
-    .why-work-list .wwL-list{
+
+    .why-work-list .wwL-list {
         width: 638px;
     }
+}
+
+@media (min-width: 1440px) {
+    .reteirment .container {
+        max-width: 1205px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .reteirment .container {
+        max-width: 1370px;
+    }
+}
+
+@media (max-width:1440px) {
+    .why-work-list ul li {
+        padding-inline: 16px;
+        gap: 8px;
+    }
+
+    .why-work-list .wwL-lists {
+        gap: 20px;
+    }
+    .about h2 {
+    font-size: 56px;
+    }
+    .about h3 {
+    font-size: 42px;
+    color: #000;
+    margin: 24px 0px 24px 0px;
+}
+}
+
+@media (max-width:1200px) {
+    .why-work-list {
+        padding-block: 80px;
+    }
+
+    .workwithus-form .work-form .card {
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .workwithus-form .form-item { 
+        gap: 12px;
+    }
+
+    .workwithus-form .form-item p {
+        font-size: 20px;
+    }
+
+    .workwithus-form #heading { 
+        margin-bottom: 10px;
+        font-size: 36px;
+    }
+}
+
+@media (max-width:992px) {
+
+    .banner h1,
+    .podcast-props h2,
+    .retirement-row .heading,
+    .work-with-us h1,
+    .why-work-list h3,
+    .get-a-question h1 {
+        font-size: 36px;
+    }
+
+    .banner p,
+    .reteirment p,
+    .work-with-us p,
+    .get-a-question p {
+        font-size: 16px;
+    }
+.why-work-list .wwL-lists{
+    flex-direction: column;
+}
+.why-work-list .wwL-list{
+    width: 100%;
+}
+.why-work-list ul li{
+    font-size: 22px;
+}
+    .banner .theme-btn {
+        margin-bottom: 50px;
+    }
+
+    .podcast-props {
+        padding-block: 80px;
+    }
+
+    header .navbar-nav {
+        gap: 10px;
+    }
+
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 999;
+    }
+
+
+    .navbar-collapse.collapsing {
+        height: 100%;
+        -webkit-transition: right 0.3s ease;
+        -o-transition: right 0.3s ease;
+        -moz-transition: right 0.3s ease;
+        transition: right 0.3s ease;
+        right: -100%;
+    }
+
+    header .nav-link {
+        color: #000;
+    }
+
+    .navbar-collapse {
+
+        position: fixed;
+        top: 76px;
+        right: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+        background: #f5f5f5;
+        height: 100%;
+        padding-top: 25px;
+        height: calc(100vh - 70px);
+        overflow-y: auto;
+        z-index: 9;
+    }
+
+    .navbar-collapse.show {
+        right: 0;
+        -webkit-transition: right 0.3s ease-in;
+        -o-transition: right 0.3s ease-in;
+        -moz-transition: right 0.3s ease-in;
+        transition: right 0.3s ease-in;
+        z-index: 9;
+    }
+
+    .reteirment {
+        margin-inline: 12px;
+    }
+
+    .reteirment h3 {
+        font-size: 48px;
+    }
+
+    .reteirment .btn-group {
+        gap: 20px;
+    }
+
+    .workwithus-form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .work-with-us .work-form {
+        max-width: 100%;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .podcast-props .podcast-card {
+
+        padding: .5rem;
+        background: #fff;
+        justify-content: start;
+
+        align-items: center;
+
+        background-image: radial-gradient(at bottom center, #d6b0d9, #002928);
+        border-radius: 999px;
+        color: #fff;
+
+        margin-bottom: 16px;
+    }
+
+    .podcast-props span {
+        font-size: 22px;
+    }
+
+    .reteirment .retirement-row-content {
+        text-align: center;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    .toolkit-img {
+        text-align: center;
+    }
+
+    .cta {
+        max-width: 100%;
+        margin-inline: 20px;
+        padding: 40px;
+        border-radius: 20px;
+    }
+
+    .reteirment .cta {
+        max-width: 100%;
+    }
+
+    .cta-heading {
+        margin-bottom: 20px;
+    }
+
+    .cta-heading {
+        font-size: 36px;
+    }
+
+    .reteirment .btn-group {
+        flex-direction: column;
+    }
+        .workwithus-form .form-item{
+        
+        gap: 12px;
+        flex-direction: column;
+        align-items: start;
+        padding: 20px;
+    }
+}
+
+
+
+@media (max-width: 576px) {
+    .banner {
+
+        padding-top: 50px;
+    }
+    .get-a-question .form-card {
+    padding: 36px 20px;
+    }
+
+        .workwithus-form .work-form .card {
+        padding-inline: 10px;
+        }
+
+    .banner::before {
+
+        height: 190px;
+    }
+
+    .reteirment h3 {
+        font-size: 36px;
+    }
+
+    .reteirment {
+        padding-top: 50px;
+    }
+
+    .banner h1,
+    .podcast-props h2,
+    .retirement-row .heading,
+    .work-with-us h1,
+    .why-work-list h3 {
+        font-size: 30px;
+    }
+
+    footer {
+        padding-inline: 24px;
+    }
+
+    .cta {
+        margin-inline: 0;
+    }
+    .work-with-us{
+        padding-block: 50px;
+    }
+
 }
