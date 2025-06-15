@@ -52,6 +52,31 @@
         padding-inline: 16px;
         gap: 8px;
     }
+    .toolkit h1 {
+    font-size: 50px;
+    }
+    .toolkit span {
+    font-size: 21px;
+    margin-bottom: 16px;
+    }
+    .toolkit ul {
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+.toolkit ul li{
+    font-size: 16px;
+}
+.toolkit ul li img {
+    width: 25px;
+    height: 25px;
+}
+.toolkit p {
+    font-size: 16px;
+}
+.toolkit{
+    padding-block:70px 50px;
+}
+
 
     .why-work-list .wwL-lists {
         gap: 20px;
@@ -70,7 +95,36 @@
     .why-work-list {
         padding-block: 80px;
     }
+        .toolkit h1 {
+        font-size: 42px;
+    }
+        .toolkit span {
+        font-size: 17px;
+        margin-bottom: 11px;
+    }
+    .toolkit-form h2 {
+    font-size: 36px;
+    }
+    .toolkit-form svg{
+            width: 380px;
 
+    }
+    .toolkit-form ul {
+    margin-block: 20px;
+    margin-left: 0;
+}
+.toolkit-form li{
+            gap: 11px;
+        margin-bottom: 10px;
+    font-size: 16px;
+}
+.toolkit-form li img{
+        width: 30px;
+
+}
+.resources-card h4 {
+    font-size: 35px;
+}
     .workwithus-form .work-form .card {
         padding: 20px;
         border-radius: 20px;
@@ -91,7 +145,53 @@
 }
 
 @media (max-width:992px) {
+.toolkit h1 {
+        font-size: 34px;
+    }
+    .toolkit span {
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+        .toolkit p {
+        font-size: 13px;
+    }
+        .toolkit ul {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    .toolkit-form h2 {
+        font-size: 30px;
+    }
+        .toolkit-form svg {
+        width: 305px;
+    }
+        .toolkit-form ul {
+        margin-block: 12px;
+        }
+            .toolkit-form li img {
+        width: 19px;
+    }
+    .toolkit-form li {
+        gap: 8px;
+        margin-bottom: 8px;
+        font-size: 14px;
+    }
+.toolkit-form .form-card {
+    padding: 17px 6px;
+}
+.toolkit-form .form-card input, .toolkit-form .form-card textarea{
+    padding: 13px 16px;
+            margin-bottom: 10px;
 
+
+}
+.toolkit {
+        padding-block: 36px 62px;
+    }
+    .toolkit ul li{
+            align-items: flex-start;
+    gap: 8px;
+    }
     .banner h1,
     .podcast-props h2,
     .retirement-row .heading,
@@ -99,6 +199,9 @@
     .why-work-list h3,
     .get-a-question h1 {
         font-size: 36px;
+    }
+        .resources-card h4 {
+        font-size: 27px;
     }
 
     .banner p,
@@ -198,6 +301,13 @@
 
 
 @media (max-width: 767px) {
+    .toolkit-img{
+            margin-top: 48px;
+
+    }
+    .toolkit-form .form-card{
+        margin-top: 35px;
+    }
     .podcast-props .podcast-card {
 
         padding: .5rem;
@@ -213,6 +323,22 @@
         margin-bottom: 16px;
     }
 
+    .resources .modal-dialog {
+    max-width: 600px;
+}
+.resources .modal-dialog .modal-title {
+    font-size: 26px;
+}
+.resources .modal-dialog label{
+    font-size: 16px;
+}
+.resources .modal-dialog input{
+    padding-block: 8px;
+    margin-bottom: 14px;
+}
+.resources .modal-dialog p,.resources .modal-dialog p a {
+    font-size: 11px;
+}
     .podcast-props span {
         font-size: 22px;
     }
@@ -265,6 +391,40 @@
 
         padding-top: 50px;
     }
+        .toolkit h1 {
+        font-size: 28px;
+    }
+    .toolkit ul li {
+        font-size: 13px;
+    }
+        .toolkit-form h2 {
+        font-size: 27px;
+    }
+        .toolkit-form svg {
+        width: 258px;
+    }
+    .navbar-actions .theme-btn{
+        padding: 7px 5px;
+        font-size: 10px;
+    }
+    .resources h1 {
+    font-size: 19px;
+    margin-bottom: 14px;
+    }
+    .resources p {
+    font-size: 15px;
+    }
+        .resources-card h4 {
+        font-size: 23px;
+        margin-block: 10px;
+    }
+    .resources-card a {
+    padding: 10px 19px;
+    font-size: 14px;
+    }
+    .resources {
+    padding-block: 50px;
+}
     .get-a-question .form-card {
     padding: 36px 20px;
     }
@@ -293,11 +453,13 @@
     .why-work-list h3 {
         font-size: 30px;
     }
-
     footer {
-        padding-inline: 24px;
+        padding-inline: 9px;
+        padding-block: 20px;
     }
-
+    .copy-right, .copy-right a {
+    font-size: 14px;
+    }
     .cta {
         margin-inline: 0;
     }
@@ -306,3 +468,4 @@
     }
 
 }
+

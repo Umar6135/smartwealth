@@ -22,6 +22,61 @@
     }
 }
 
+.toolkit{
+     background-color: rgba(0, 41, 40, 1);
+    padding-block: 80px;
+    h1{
+            font-size: 64px;
+    font-weight: 500;
+    line-height: 1;
+    color: #fff;
+
+    margin-bottom: 20px;
+    }
+    span{
+            font-size: 29px;
+    font-weight: bold;
+    margin-bottom: 27px;
+    display: block;
+    line-height: 1;
+
+    }
+ul{
+        margin-left: 27px;
+    margin-bottom: 20px;
+    li{
+            display: flex
+;
+    font-size: 20px;
+    align-items: anchor-center;
+    gap: 10px;
+    margin-bottom: 8px;
+    img{
+            width: 40px;
+    height: 40px;
+    }
+    }
+}
+p{
+        font-size: 20px;
+
+}
+h6{
+        font-size: 16px;
+    color: #fff;
+    position: relative;
+    &::after{
+               content: url(/assets/img/thick-underline.svg);
+    bottom: -36px;
+    left: -34px;
+    position: absolute;
+    height: 31px;
+    transform: scale(0.75) !important;
+    width: 217px;
+    display: inline-block;
+    }
+}
+}
 
 .navbar-toggler svg {
     width: .875rem;
@@ -819,4 +874,175 @@ small {
             border-radius: 35px;
         }
     }
+}
+.toolkit-form{
+    padding-block: 80px;
+    h2{
+        font-size: 41px;
+    font-weight: 500;
+    color: #000;
+    line-height: 1.2;
+    margin-bottom: 13px;
+    }
+    li{
+            color: #6b7280;
+    display: flex
+;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+        margin-bottom: 14px;
+
+    }
+    ul{
+            margin-block: 30px;
+    margin-left: 20px;
+    }
+    .form-card {
+    padding: 30px 15px;
+    background: #fff;
+    border: 1px solid #6b7280;
+    border-radius: 20px;
+    max-width: 850px;
+    margin: auto;
+
+        button {
+            background: #047857;
+            font-size: 16px;
+            line-height: 1;
+            font-family: "Nunito Sans";
+            font-weight: bold;
+            color: #f8fafc;
+            border: 0 none;
+            border-radius: 80px;
+            cursor: pointer;
+            padding: 16px 26px 15px 25px;
+            display: block;
+        }
+
+
+        input,
+        textarea {
+            font-size: 15px;
+            font-family: "Nunito Sans";
+            line-height: 1.1;
+            padding: 17.5px 26px;
+            width: 100%;
+            color: #0e0e0f;
+            background: #f8fafc;
+            border-radius: 60px;
+            MARGIN-BOTTOM: 20PX;
+            border: 1px solid rgba(107, 114, 128, .25);
+        }
+
+        textarea {
+            border-radius: 20px;
+        }
+    }
+}
+.resources{
+    padding-block: 100px;
+    .modal-dialog {
+        max-width: 900px;
+        .modal-title{
+                font-size: 40px;
+    color: #000;
+    font-weight: 500;
+    line-height: 1.2;
+        }
+        label{
+                display: block;
+    font-size: 18px;
+    color: #000;
+    line-height: 1.2;
+    margin-bottom: 10px;    padding-left: 10px;
+
+
+        }
+        input{
+                   font-size: 15px;
+    font-family: "Nunito Sans";
+    line-height: 1.1;
+    padding: 17.5px 26px;
+    width: 100%;
+    color: #0e0e0f;
+    background: #f8fafc;
+    border-radius: 60px;
+    MARGIN-BOTTOM: 20PX;
+    border: 1px solid rgba(107, 114, 128, .25);
+        }
+        p{
+                font-size: 16px;
+    line-height: 1.5;
+    a{
+    font-size: 16px;
+    line-height: 1.5;    color: #000;
+    font-weight: 400;
+    }
+
+        }
+        button[type="submit"]{
+                background: #047857;
+    font-size: 16px;
+    line-height: 1;
+    font-family: $fontSecondary;
+    font-weight: bold;
+    color: #f8fafc;
+    border: 0 none;
+    border-radius: 80px;
+    cursor: pointer;
+    padding: 16px 26px 15px 25px;
+    display: block;
+    width: 100%;
+        }
+
+        .modal-content{
+            padding: 28px;
+        }
+        .modal-header{
+                padding-inline: 0;
+    padding-top: 0;
+
+        }
+.modal-body{
+    padding-inline: 0;
+}
+    }
+    h1{
+            font-size: 24px;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+    }
+p{
+        font-size: 20px;
+    color: #000;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+&-card{
+    text-align: center;
+        margin-bottom: 50px;
+
+    h4{
+            font-size: 40px;
+    color: #000;
+    max-width: 456px;
+    margin: auto;
+    margin-block: 20px;
+    line-height: 1.2;
+
+    }
+    a{
+            padding: 15px 30px;
+    border: 1px solid #000;
+    display: block;
+    width: fit-content;
+    margin: auto;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 3px;
+    }
+}
 }
